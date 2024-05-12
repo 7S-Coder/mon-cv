@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article:first-of-type {
+  border: 2px solid black;
+  margin: 0 20%;
+}

@@ -1,10 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Bordure de la page */
 #cv {
   border: 2px solid black;
   margin: 0 20%;
+  background-color: #782221;
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#cv,
+a {
+  /* color: #dbc2a4; */
+  color: white;
+  text-decoration: none;
+}
+
+/* CSS HEADER */
+header {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header img {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header span,
+header h1,
+header address {
+  margin-top: 5px;
+}
+
+header address {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c1d27;
+  padding: 20px;
+}
+
+header a:nth-child(2) {
+  position: absolute;
+  margin-left: 25%;
 }
